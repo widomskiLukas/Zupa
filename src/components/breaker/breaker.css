@@ -1,0 +1,63 @@
+.zupa__breaker{
+    display: block;
+    text-align: center;
+    max-width: 1265px;
+    margin: auto;
+    padding-top: 9.125rem;
+    padding-bottom: 18.313rem;
+}
+.zupa__breaker-title{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.zupa__breaker-content{
+    font-size: 5.625rem;
+    font-weight: 400;
+}
+@media screen and (max-width: 1440px){
+    .zupa__breaker{
+        max-width: 1140px;
+        padding-top: 7.125rem;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .zupa__breaker{
+        max-width: 980px;
+        padding-top: 6.125rem;
+    }
+    .zupa__breaker-content{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .zupa__breaker{
+        max-width: 750px;
+        padding-top: 5.125rem;
+    }
+
+}
+
+@media screen and (max-width: 870px) {
+    .zupa__breaker{
+        max-width: 100%;
+        padding: 4rem 2rem;
+    }
+    .zupa__breaker-content{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 576px){
+    .zupa__breaker{
+        padding: 3.5rem 1rem;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .zupa__breaker-content{
+        font-size: 2.5rem;
+    }
+}
+
+
+

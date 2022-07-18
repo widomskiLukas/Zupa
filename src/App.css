@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: var(--font-family);
+}
+
+a {
+    color: unset !important	;
+    text-decoration: none !important;
+}
+.App{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.section__margin{
+    margin: 80px 0;
+}
+
+
+
+

@@ -1,0 +1,99 @@
+
+.col{
+    flex: 1 0 18%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #D1D0C8;
+    max-height: 270px;
+    margin: 0;
+    padding-top: 1.813rem;
+    padding-left: 2.5rem;
+    flex-direction: column;
+    height: 220px;
+}
+.zupa__views{
+    padding-right: 4.656rem;
+}
+.zupa__unique{
+    padding-right: 7.563rem;
+}
+.zupa__comments{
+    padding-right: 3.375rem;
+}
+.zupa__brand{
+    padding-right: 7.5rem;
+}
+.zupa__brand-index{
+    padding-right: 7.063rem;
+}
+
+.zupa__statistic-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.zupa__statistic-content p{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.zupa__statistic-content h1{
+    font-size: 7.5rem;
+    line-height: 140px;
+    font-weight: 400;
+}
+.zupa__statistic-content span{
+    font-size: 3.75rem;
+    line-height: 140px;
+    font-weight: 400;
+}
+@media screen and (max-width: 870px){
+    .zupa__statistic-content{
+        padding: 0 2rem;
+    }
+    .zupa__views{
+        padding-right: 1rem;
+    }
+    .zupa__unique{
+        padding-right: 1rem;
+    }
+    .zupa__comments{
+        padding-right: 1rem;
+    }
+    .zupa__brand{
+        padding-right: 1rem;
+    }
+    .zupa__brand-index{
+        padding-right: 1rem;
+    }
+  }
+
+@media screen and (max-width: 615px) {
+    .zupa__statistic-content h4{
+        font-size: 1.8rem;
+    }
+    .zupa__statistic-content p{
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 576px){
+    .zupa__statistic-content{
+        padding: 0 1rem;
+    }
+    .zupa__statistic-content h1{
+        font-size: 5rem;
+        line-height: 120px;
+        font-weight: 400;
+    }
+    .zupa__statistic-content span{
+        font-size: 2.75rem;
+        line-height: 140px;
+        font-weight: 400;
+    }
+    .col{
+        padding-left: 1.5rem;
+    }
+    .zupa__statistic-content p{
+        margin-bottom: 5px;
+    }
+  }

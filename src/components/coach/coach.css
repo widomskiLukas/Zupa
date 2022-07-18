@@ -1,0 +1,43 @@
+.zupa__coach{
+    display: block;
+    margin: 4rem auto 6.75rem auto;
+}
+.zupa__coach-text{
+    max-width: 758px;
+    margin: auto;
+    padding:0 0 6.875rem 0;
+    line-height: 46px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.zupa__coach-content img{
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+.zupa__coach-content{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: right;
+    margin-left: auto;
+    max-width: 1265px;
+}
+@media screen and (max-width: 870px){
+    .zupa__coach{
+        margin: 4rem 2rem;
+    }
+  }
+@media screen and (max-width: 576px){
+    .zupa__coach-content{
+        font-size: 1.5rem;
+    }
+    .zupa__coach{
+        margin: 4rem 1rem;
+    }
+  }
+
+
+
+
+
+

@@ -1,0 +1,283 @@
+.zupa__caseSecond {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    max-width: 1265px;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+}
+.zupa__caseSecond-padding{
+    padding-top: 55px;
+    padding-bottom: 32px;
+}
+.zupa__right-caseSecond{
+    margin: 0 0 0 1rem;
+    position: relative;
+}
+.zupa__left-caseSecond {
+    margin: -20.8rem  1rem 0 0 ;
+    position: relative;
+}
+
+.zupa__left-caseSecond img {
+    width: 100%;
+    height: auto;;
+}
+.zupa__right-caseSecond img {
+    width: 100%;
+    height: auto;;
+}
+.zupa__caseSecond button{
+    position: absolute;
+    background-color: rgb(255 255 255 / 70%);
+    border: none;
+    margin: 2.188rem 1.438rem;
+    transition: .5s ease;
+    transform: translate(0%, 0%);
+}
+.zupa__left-caseSecond img {
+    width: 100%;
+    height: auto;;
+}
+.zupa__left-caseSecond img {
+    width: 100%;
+    height: auto;;
+}
+.zupa__left-caseSecond button{
+    position: absolute;
+    background-color: rgb(255 255 255 / 70%);
+    border: none;
+    margin: 2.188rem 1.438rem;
+    transition: .5s ease;
+    transform: translate(0%, 0%);
+}
+.zupa__left-caseSecond#zoom img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-out;
+	transition: .6s ease-out;
+}
+.zupa__left-caseSecond#zoom:hover img {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.1);
+}
+
+.zupa__left-caseSecond figure {
+	overflow: hidden;
+}
+.zupa__left-caseSecond-overlay button{
+    opacity: 1;
+    height: 56px;
+    width: 56px;
+    border-radius: 70%;
+}
+.zupa__left-caseSecond:hover .zupa__left-caseSecond-overlay button{
+    opacity: 1;
+    width: 76px;
+    border-radius: 40px;
+  }
+
+.zupa__left-caseSecond-overlay {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+
+  }
+.zupa__left-caseSecond:hover .zupa__left-caseSecond-overlay {
+    opacity: 1;
+    background-color: rgb(10 6 0 / 35%);
+  }
+  .zupa__left-caseSecond:hover .zupa__left-caseSecond-overlay-text{
+    opacity: 1;
+  }
+ .zupa__left-caseSecond-overlay-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 2.188rem 1.438rem;
+    opacity: 0;
+}
+
+.zupa__left-caseSecond-overlay-text p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.zupa__left-caseSecond-overlay-text h1 {
+    color: #fff;
+    font-size: 3.75rem;
+    font-weight: 400;
+}
+.zupa__right-caseSecond#zoom img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-out;
+	transition: .6s ease-out;
+}
+.zupa__right-caseSecond#zoom:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.zupa__right-caseSecond figure {
+	overflow: hidden;
+}
+.zupa__right-caseSecond-overlay button{
+    opacity: 1;
+    height: 56px;
+    width: 56px;
+    border-radius: 70%;
+}
+.zupa__right-caseSecond:hover .zupa__right-caseSecond-overlay button{
+    opacity: 1;
+    width: 76px;
+    border-radius: 40px;
+  }
+.zupa__right-caseSecond-overlay {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+  }
+.zupa__right-caseSecond:hover .zupa__right-caseSecond-overlay  {
+    background-color: rgb(10 6 0 / 35%);
+    opacity: 1;
+  }
+  .zupa__right-caseSecond:hover  .zupa__right-caseSecond-overlay-text  {
+    opacity: 1;
+  }
+
+ .zupa__right-caseSecond-overlay-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 2.188rem 1.438rem;
+    opacity: 0;
+}
+
+.zupa__right-caseSecond-overlay-text p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.zupa__right-caseSecond-overlay-text h1 {
+    color: #fff;
+    font-size: 3.75rem;
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 1440px){
+    .zupa__caseSecond{
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .zupa__caseSecond{
+        max-width: 980px;
+    }
+    .zupa__left-caseSecond-overlay-text h1 {
+        color: #fff;
+        font-size: 3.2rem;
+        font-weight: 400;
+    }
+    .zupa__right-caseSecond-overlay-text h1 {
+        color: #fff;
+        font-size: 3.2rem;
+        font-weight: 400;
+    }
+
+}
+@media screen and (max-width: 1110px) {
+    .zupa__caseSecond{
+        max-width: 750px;
+    }
+    .zupa__left-caseSecond {
+        margin: -24.5rem 1rem 0 0 ;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .zupa__caseSecond{
+        max-width: 100%;
+        display: block;
+    }
+    .zupa__right-caseSecond{
+        margin: 1.75rem 0 0 0;
+        padding: 0 2rem;
+    }
+    .zupa__left-caseSecond {
+        padding: 0 2rem;
+        margin-right: 0rem;
+    }
+    .zupa__left-caseSecond {
+        margin: 0 ;
+    }
+    .zupa__caseSecond-padding{
+        padding-top: inherit;
+    }
+    .zupa__right-caseSecond-overlay {
+        height: auto;
+        width: auto;
+        margin: 0 2rem;
+    }
+    .zupa__left-caseSecond-overlay {
+        height: auto;
+        width: auto;
+        margin: 0 2rem;
+    }
+}
+@media screen and (max-width: 576px){
+    .zupa__right-caseSecond{
+        margin: 0.75rem 0 0 0;
+        padding: 0 1rem;
+    }
+    .zupa__left-caseSecond {
+        padding: 0 1rem;
+    }
+    .zupa__caseSecond-padding{
+        padding-top: 3rem;
+    }
+    .zupa__right-caseSecond-overlay {
+        margin: 0 1rem;
+    }
+    .zupa__left-caseSecond-overlay {
+        margin: 0 1rem;
+    }
+    .zupa__left-caseSecond-overlay-text h1 {
+        font-size: 2.2rem;
+    }
+    .zupa__right-caseSecond-overlay-text h1{
+        font-size: 2.2rem;
+    }
+  }

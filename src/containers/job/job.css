@@ -1,0 +1,270 @@
+.zupa__job{
+    display: flex;
+    max-width: 1265px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.zupa__gradient-box{
+    flex: 1;
+    display: flex;
+    max-width: 50%;
+    height: 616px;
+    margin: -7.813rem 1rem 0 0 ;
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(135deg, rgba(0, 88, 255, 1) 0%, rgba(167, 131, 73, 1) 100%);
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(135deg, rgba(0, 88, 255, 1) 0%, rgba(167, 131, 73, 1) 100%);
+    /* opera 11.10+ */
+    background:-o-linear-gradient(135deg, rgba(0, 88, 255, 1) 0%, rgba(167, 131, 73, 1) 100%);
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A78349', endColorstr='#0058FF', GradientType=1 );
+    /* ie 10+ */
+    background:-ms-linear-gradient(135deg, rgba(0, 88, 255, 1) 0%, rgba(167, 131, 73, 1) 100%);
+    /* global 94%+ browsers support */
+    background:linear-gradient(135deg, rgba(0, 88, 255, 1) 0%, rgba(167, 131, 73, 1) 100%);
+    position: relative;
+}
+
+.zupa__job-content{
+    padding: 2.625rem 2.5rem;
+}
+.zupa__job-bg{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 616px;
+    background: #01FFB6;
+    margin-left: 1rem;
+    position: relative;
+}
+.zupa__job-diversity{
+    width: 50%;
+    margin-top: -3px;
+}
+.zupa__diversity-content{
+    margin-left: 1rem;
+    padding-top: 3.125rem;
+}
+.zupa__diversity-big{
+    font-size: 1.875rem;
+    font-weight: 400;
+}
+.zupa__diversity-small{
+    font-size: 1.125rem;
+    width: 575px;
+    padding-top: 1.875rem;
+}
+.zupa__job-overlay {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+  }
+
+.zupa__job-diversity#zoom img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-out;
+	transition: .6s ease-out;
+}
+.zupa__job-diversity#zoom:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.zupa__job-diversity figure {
+	overflow: hidden;
+}
+.zupa__gradient-box figure {
+	overflow: hidden;
+}
+.zupa__gradient-box-overlay {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+  }
+.zupa__gradient-box:hover .zupa__gradient-box-overlay {
+    opacity: 1;
+  }
+  .zupa__gradient-box:hover .zupa__gradient-box-overlay-text{
+    opacity: 1;
+  }
+ .zupa__gradient-box-overlay-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 2.625rem 2.5rem;
+    opacity: 1;
+}
+
+.zupa__gradient-box-overlay p {
+    font-size: 1.125rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.zupa__gradient-box-overlay h1 {
+    color: #fff;
+    font-size: 3.75rem;
+    font-weight: 400;
+    line-height: 60px;
+}
+.zupa__gradient-box-overlay {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-out;
+	transition: .6s ease-out;
+}
+.zupa__gradient-box-overlay:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    margin: 3.188rem 2.438rem;
+}
+
+
+
+@media screen and (max-width: 1440px){
+    .zupa__job{
+        max-width: 1140px;
+    }
+    .zupa__job-bg{
+        height: 554px;
+    }
+    .zupa__gradient-box{
+        height: 554px;
+    }
+}
+@media screen and (max-width: 1280px){
+    .zupa__job{
+        max-width: 980px;
+    }
+    .zupa__diversity-small{
+        width: auto;
+    }
+    .zupa__diversity-big{
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    .zupa__job-bg{
+        height: 474px;
+    }
+    .zupa__gradient-box{
+        height: 474px;
+    }
+    .zupa__job-bg img{
+        width: 50%;
+    }
+    .zupa__gradient-box-overlay h1 {
+        font-size: 3.2rem;
+        line-height: 55px;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .zupa__job{
+        max-width: 750px;
+    }
+    .zupa__job-bg{
+        height: 343px;
+    }
+    .zupa__gradient-box{
+        height: 343px;
+    }
+    .zupa__content-big{
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .zupa__gradient-box-overlay h1 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    .zupa__gradient-box-overlay-text {
+        margin: 1.625rem 1.5rem;
+    }
+}
+@media screen and (max-width: 870px) {
+    .zupa__job{
+        max-width: 100%;
+        display: block;
+        padding: 0rem;
+    }
+    .zupa__gradient-box{
+        max-width: 100%;
+        margin: -5px 2rem ;
+       }
+    .zupa__job-bg{
+        margin-left: inherit;
+    }
+     .zupa__job-bg img{
+        width: 20%;
+    }
+    .zupa__job-diversity{
+        width: 100%;
+        padding: 2.375rem 2rem 4rem 2rem;
+    }
+    .zupa__diversity-content{
+        margin-left: 1rem;
+        padding-top: 3rem;
+    }
+    .zupa__gradient-box-overlay h1 {
+        font-size: 2.9rem;
+        line-height: 45px;
+    }
+}
+@media screen and (max-width: 615px) {
+    .zupa__job-bg img{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .zupa__job{
+        padding:  0rem;
+    }
+    .zupa__gradient-box{
+        margin: 0 1rem ;
+    }
+    .zupa__case button{
+        margin-top: 100%;
+    }
+    .zupa__job-diversity{
+        padding: 1.188rem 1rem;
+    }
+    .zupa__gradient-box-overlay h1 {
+        font-size: 2.2rem;
+        line-height: 45px;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .zupa__job-bg img{
+        width: 35%;
+    }
+    .zupa__content-big{
+        font-size: 2rem;
+    }
+}

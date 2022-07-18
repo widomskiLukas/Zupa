@@ -1,0 +1,9 @@
+@import url('https://use.typekit.net/rom8evv.css');
+ :root {
+    --font-family: 'degular', sans-serif ;
+
+    --color-bg: #F6F6F4 ;
+    --color-text: #0A0600;
+    --gradient: linear-gradient(135deg, rgba(0, 88, 255, 1) 0%, rgba(167, 131, 73, 1) 100%);
+ };
+

@@ -1,0 +1,6 @@
+.Home {
+    background-color: #F6F6F4;
+}
+.Home .zupa__navbar-links_logo img{
+    filter: invert(0);
+}

@@ -1,0 +1,42 @@
+.zupa__formula{
+    display: flex;
+    max-width: 1265px;
+    margin: -10.5rem auto;
+    padding: 0 1rem 13.5rem 1rem;
+}
+.zupa__formula-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.zupa__formula-text{
+    max-width: 832px;
+    margin: auto;
+    padding: 6.25rem 0 7rem 0;
+}
+.zupa__formula-content img{
+    width: 100%;
+    height: auto;
+    padding: 0 2rem;
+}
+@media screen and (max-width: 576px){
+    .zupa__formula-content img{
+        padding: 0 1rem;
+    }
+    .zupa__formula-content{
+        font-size: 1.5rem;
+    }
+    .zupa__formula{
+        display: flex;
+        max-width: 1265px;
+        margin: -6.5rem auto;
+        padding: 0 1rem 7.5rem
+    }
+  }
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+.zupa__carousele {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    max-width: 1265px;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+}
+.zupa__carousele-padding{
+    padding-top: 55px;
+    padding-bottom: 32px;
+}
+.zupa__right-carousele{
+    margin: 0 0 0 1rem;
+    position: relative;
+}
+.zupa__left-carousele {
+    margin: -2.5rem  1rem 0 0 ;
+    position: relative;
+}
+
+.zupa__left-carousele img {
+    width: 100%;
+    height: auto;;
+}
+.zupa__right-carousele img {
+    width: 100%;
+    height: auto;;
+}
+.zupa__carousele p{
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 1.25rem 0;
+}
+
+
+
+@media screen and (max-width: 1440px){
+    .zupa__carousele{
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .zupa__carousele{
+        max-width: 980px;
+    }
+
+}
+@media screen and (max-width: 1110px) {
+    .zupa__carousele{
+        max-width: 750px;
+    }
+    .zupa__left-carousele {
+        margin: -2.5rem 1rem 0 0 ;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .zupa__carousele{
+        max-width: 100%;
+        display: block;
+    }
+    .zupa__right-carousele{
+        margin: 1.75rem 0 0 0;
+        padding: 0 2rem;
+    }
+    .zupa__left-carousele {
+        padding: 0 2rem;
+        margin-right: 0rem;
+    }
+    .zupa__left-carousele {
+        margin: 0 ;
+    }
+    .zupa__carousele-padding{
+        padding-top: inherit;
+    }
+
+}
+@media screen and (max-width: 576px){
+    .zupa__right-carousele{
+        margin: 0.75rem 0 0 0;
+        padding: 0 1rem;
+    }
+    .zupa__left-carousele {
+        padding: 0 1rem;
+    }
+    .zupa__carousele-padding{
+        padding-top: 3rem;
+    }
+
+  }

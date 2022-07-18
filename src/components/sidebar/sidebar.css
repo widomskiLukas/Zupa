@@ -1,0 +1,28 @@
+.zupa__sidebar{
+    display: flex;
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    position: absolute;
+    padding: 0rem 2.5rem 0 0
+}
+
+.zupa__sidebar p{
+    font-weight: 400;
+    margin: 1.694rem 0  0 0;
+}
+
+@media screen and (max-width: 870px){
+    .zupa__sidebar{
+        padding: 0rem 2rem 0 0
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .zupa__sidebar{
+        padding: 0rem 1rem 0 0
+    }
+    .zupa__sidebar p{
+        font-size: 0.8rem;
+    }
+}

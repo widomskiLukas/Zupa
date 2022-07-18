@@ -1,0 +1,92 @@
+.zupa__Header_cases{
+    display: block;
+    margin: auto;
+    padding-bottom: 1.919rem;
+}
+
+.zupa__Header_cases-content{
+    font-size: 7.5rem;
+    font-weight: 400;
+    padding: 0  2rem 2.6225rem 2rem;
+    padding-bottom: 2.625rem;
+    max-width: 1265px;
+    margin: auto;
+}
+.zupa__Header_cases-content span{
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-underline-offset: 18px;
+}
+.zupa__Header_cases-branding p{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.zupa__Header_cases-branding h1{
+    font-size: 3.75rem;
+    font-weight: 400;
+}
+.zupa__Header_cases-branding{
+    font-size: 3.75rem;
+    font-weight: 400;
+    padding: 0 2.5rem;
+}
+.zupa__Header_cases-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5.081rem;
+}
+.zupa__Header_cases-title p{
+    font-size: 2rem;
+    font-weight: 400;
+    max-width: 736px;
+}
+@media screen and (max-width: 1440px){
+    .zupa__Header_cases-content{
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .zupa__Header_cases-content{
+        max-width: 980px;
+    }
+    .zupa__Header_cases-content{
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .zupa__Header_cases-content{
+        max-width: 750px;
+    }
+
+}
+
+@media screen and (max-width: 870px) {
+    .zupa__Header_cases{
+        max-width: 100%;
+        padding: 4rem 2rem;
+    }
+    .zupa__Header_cases-content{
+        font-size: 4rem;
+    }
+    .zupa__Header_cases-branding{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 576px){
+    .zupa__Header_cases{
+        padding: 3.5rem 1rem;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .zupa__Header_cases-content{
+        font-size: 3rem;
+    }
+    .zupa__Header_cases-content span{
+        text-underline-offset: 13px;
+    }
+}
+
+
+

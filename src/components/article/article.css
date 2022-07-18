@@ -1,0 +1,114 @@
+.zupa__article{
+    display: block;
+    max-width: 1265px;
+    margin: auto;
+    padding-top: 9.125rem;
+    padding-bottom: 12.875rem;
+}
+.zupa__article hr{
+    border-top: 1px solid #D1D0C8;
+    margin-bottom: 5rem;
+}
+.zupa__article-title-small{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.zupa__article-title-big{
+    font-size: 3.75rem;
+    font-weight: 400;
+    max-width: 1048px;
+    padding: 1.25rem 0 3.125rem 0;
+}
+.zupa__article-content{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin: auto;
+    justify-content: space-between;
+}
+.zupa__article-content-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.zupa__article-left{
+    padding-right: 2.281rem;
+}
+.zupa__article-right{
+    padding-left: 2.281rem;
+}
+.zupa_article-link{
+    display: flex;
+    align-items: center;
+    max-width: 292px;
+    border: 1px solid #D1D0C8;
+    padding: 0.625rem 0 0.625rem 0.625rem;
+    margin-top: 4.375rem;
+}
+.zupa_article-link img{
+    padding-right: 1.25rem;
+}
+.zupa_article-link-text{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 1.375rem;
+}
+@media screen and (max-width: 1440px){
+    .zupa__article{
+        max-width: 1140px;
+        padding-top: 7.125rem;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .zupa__article{
+        max-width: 980px;
+        padding-top: 6.125rem;
+    }
+    .zupa__article-title-big{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .zupa__article{
+        max-width: 750px;
+        padding-top: 5.125rem;
+    }
+    .zupa__article hr{
+        margin-bottom: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 870px) {
+    .zupa__article{
+        max-width: 100%;
+        padding: 4rem 2.5rem;
+    }
+    .zupa__article-title-big{
+        font-size: 3rem;
+    }
+    .zupa__article-content{
+        display: block;
+    }
+    .zupa__article-left{
+        padding-right: inherit;
+        padding-bottom: 2rem;
+    }
+    .zupa__article-right{
+        padding-left: inherit;
+    }
+}
+@media screen and (max-width: 576px){
+    .zupa__article{
+        padding: 3.5rem 1rem;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .zupa__article-title-big{
+        font-size: 2.5rem;
+    }
+}
+
+
+
