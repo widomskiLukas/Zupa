@@ -119,6 +119,7 @@
 @media screen and (max-width: 1350px){
     .zupa__CasesmoreInfo-gradient h4{
         font-size: 3rem;
+        line-height: 50px;
     }
 }
 
@@ -130,6 +131,7 @@
 @media screen and (max-width: 1280px){
     .zupa__CasesmoreInfo-gradient h4{
         font-size: 1.8rem;
+        line-height: 40px;
     }
     .zupa__CasesmoreInfo-content h4{
         font-size: 1.8rem;
@@ -209,7 +211,7 @@
         display: none;
     }
     .zupa__CasesmoreInfo-gradient{
-        padding: 2.625rem 0.2rem 0.2rem 1rem;
+        padding: 2.625rem 0.2rem 0.2rem 2rem;
     }
 
   }

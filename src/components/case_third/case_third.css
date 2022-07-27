@@ -263,11 +263,10 @@
     }
     .zupa__right-caseThird-overlay-text h1 {
         font-size: 2.2rem;
+        line-height: 40px;
     }
     .zupa__left-caseThird-overlay-text h1 {
         font-size: 2.2rem;
+        line-height: 40px;
     }
-  }
-
-  @media screen and (max-width: 400px){
   }

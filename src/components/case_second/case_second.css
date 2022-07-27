@@ -278,8 +278,10 @@
     }
     .zupa__left-caseSecond-overlay-text h1 {
         font-size: 2.2rem;
+        line-height: 40px;
     }
     .zupa__right-caseSecond-overlay-text h1{
         font-size: 2.2rem;
+        line-height: 40px
     }
   }
