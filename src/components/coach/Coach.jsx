@@ -4,7 +4,7 @@ import coach from '../../assets/coach.png'
 
 const Coach = () => {
   return (
-    <div className='zupa__coach' data-aos = "fade-up" data-aos-duration = "1000">
+    <div className='zupa__coach'>
 
 
         <div className='zupa__coach-text'>

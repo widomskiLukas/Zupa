@@ -40,7 +40,7 @@
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-out;
-	transition: .6s ease-out;
+	transition: .3s ease-out;
 }
 .zupa__left-case#zoom:hover img {
 	-webkit-transform: scale(1.1);
@@ -108,13 +108,14 @@
     color: #fff;
     font-size: 3.75rem;
     font-weight: 400;
+    line-height: 60px;
 }
 
 .zupa__right-case#zoom img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-out;
-	transition: .6s ease-out;
+	transition: .3s ease-out;
 }
 .zupa__right-case#zoom:hover img {
 	-webkit-transform: scale(1.1);
@@ -180,6 +181,7 @@
     color: #fff;
     font-size: 3.75rem;
     font-weight: 400;
+    line-height: 60px;
 }
 
 

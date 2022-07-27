@@ -3,7 +3,7 @@ import './statistic.css';
 
 const Statistic = () => {
   return (
-    <div className="zupa__statistic" data-aos = "fade-up" data-aos-duration = "1000">
+    <div className="zupa__statistic">
       <div className='zupa__statistic-content'>
         <div className='col zupa__views'>
             <p>

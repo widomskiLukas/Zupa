@@ -3,7 +3,7 @@ import './header_cases.css';
 
 const Header_cases = () => {
   return (
-    <div className='zupa__Header_cases' data-aos = "fade-right" data-aos-duration = "1000">
+    <div className='zupa__Header_cases'>
     <div className='zupa__Header_cases-content'>
         <p>
         The chance of you <span>not</span> knowing OK is now less than 5%

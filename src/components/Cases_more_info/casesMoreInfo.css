@@ -1,7 +1,6 @@
 .zupa__CasesmoreInfo{
     display: flex;
     flex-direction: row;
-    padding-top: 16.938rem;
     margin: auto;
 }
 .zupa__CasesmoreInfo-image {
@@ -27,6 +26,7 @@
     padding-top: 2.625rem;
     min-width: 50%;
     min-height: 270px;
+
 }
 .zupa__CasesmoreInfo-work{
     flex: 1;
@@ -74,18 +74,6 @@
     right: 35px;
 }
 
-
-
-#zoom {
-    overflow: hidden;
-  }
-
-.zupa__CasesmoreInfo-work figure {
-	overflow: hidden;
-}
-.zupa__CasesmoreInfo-gradient figure {
-	overflow: hidden;
-}
 .zupa__CasesmoreInfo-overlay {
     display: flex;
     align-items: flex-start;
@@ -100,9 +88,6 @@
     opacity: 1;
     transition: .5s ease;
   }
-.zupa__CasesmoreInfo-work:hover .zupa__CasesmoreInfo-overlay {
-    opacity: 1;
-  }
 
 .zupa__CasesmoreInfo-overlay p {
     font-size: 1.125rem;
@@ -116,41 +101,30 @@
 	-webkit-transition: .3s ease-out;
 	transition: .6s ease-out;
 }
-.zupa__CasesmoreInfo-overlay:hover img{
-	-webkit-transform: scale(1);
-	transform: scale(1.08);
-}
+
 .zupa__CasesmoreInfo-overlay p{
 	-webkit-transition: .3s ease-out;
 	transition: .6s ease-out;
-}
-.zupa__CasesmoreInfo-overlay:hover p{
-    padding-left: 10px;
 }
 .zupa__CasesmoreInfo-overlay h4{
 	-webkit-transition: .3s ease-out;
 	transition: .6s ease-out;
 }
-.zupa__CasesmoreInfo-overlay:hover h4{
-    padding-left: 20px;
-}
 .zupa__CasesmoreInfo-gradient #icon{
 	-webkit-transition: .3s ease-out;
 	transition: .6s ease-out;
 }
-.zupa__CasesmoreInfo-gradient:hover #icon {
-    right: 55px;
+
+
+@media screen and (max-width: 1350px){
+    .zupa__CasesmoreInfo-gradient h4{
+        font-size: 3rem;
+    }
 }
-
-
-
 
 @media screen and (max-width: 1440px){
     .zupa__CasesmoreInfo-gradient{
         padding: 2.625rem 0.2rem 0.2rem 2.5rem;
-    }
-    .zupa__CasesmoreInfo{
-        padding-top: 14.938rem;
     }
 }
 @media screen and (max-width: 1280px){
@@ -166,16 +140,12 @@
     .zupa__CasesmoreInfo-gradient p{
         margin-bottom: 15px;
     }
-    .zupa__CasesmoreInfo{
-        padding-top: 10.938rem;
-    }
 
 }
 @media screen and (max-width: 1110px) {
     .zupa__CasesmoreInfo{
         display: block;
         flex-direction: row;
-        padding-top: 10.938rem;
     }
     .zupa__CasesmoreInfo-overlay{
         position: relative;
@@ -198,11 +168,18 @@
         font-size: 2rem;
     }
     .zupa__CasesmoreInfo-work{
-        padding-top: 2rem;
         display: block;
     }
 
 }
+
+@media screen and (max-width: 870px){
+    .zupa__CasesmoreInfo-content{
+        margin: 0 2rem;
+        border-top: none;
+    }
+
+  }
 
 @media screen and (max-width: 615px) {
     .zupa__CasesmoreInfo-gradient h4{
@@ -226,6 +203,7 @@
         padding-left: 1rem;
         padding-top: 0;
         justify-content: center;
+        margin: 0 1rem;
     }
     .zupa__CasesmoreInfo-image img{
         display: none;

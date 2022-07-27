@@ -8,7 +8,7 @@ import { IoMdArrowForward } from "react-icons/io";
 const Case = () => {
   return (
     <div className="zupa__case zupa__case-padding" >
-      <div className="zupa__left-case" id='zoom' data-aos = "fade-up" data-aos-duration = "1000" >
+      <div className="zupa__left-case" id='zoom'>
           <figure>
             <img src={maersk} alt="Maersk" />
             <div className='zupa__left-case-overlay'>
@@ -22,7 +22,7 @@ const Case = () => {
             </div>
           </figure>
       </div>
-      <div className="zupa__right-case" id='zoom' data-aos = "fade-up" data-aos-duration = "1000">
+      <div className="zupa__right-case" id='zoom'>
           <figure>
                  <img src={silvan} alt="Silvan" />
                 <div className='zupa__right-case-overlay'>

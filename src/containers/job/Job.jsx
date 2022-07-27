@@ -6,8 +6,7 @@ const Job = () => {
   return (
     <div className="zupa__job">
 
-      <div className="zupa__gradient-box" id='zoom' data-aos = "fade-up" data-aos-duration = "1000" >
-          <figure>
+      <div className="zupa__gradient-box">
             <div className='zupa__gradient-box-overlay'>
                 <div className='zupa__gradient-box-overlay-text'>
                   <p>We are hiring</p>
@@ -16,10 +15,9 @@ const Job = () => {
                   </h1>
                 </div>
             </div>
-          </figure>
       </div>
 
-      <div className="zupa__job-diversity" id='zoom' data-aos = "fade-up" data-aos-duration = "1000">
+      <div className="zupa__job-diversity" id='zoom'>
         <figure>
           <div className="zupa__job-bg">
                 <img src={diversity} alt="Diversity" />

@@ -4,7 +4,7 @@ import formula from '../../assets/formula.png'
 
 const Formula = () => {
   return (
-    <div className='zupa__formula' data-aos = "fade-up" data-aos-duration = "1000">
+    <div className='zupa__formula'>
 
         <div className='zupa__formula-content'>
           <div>

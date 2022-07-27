@@ -9,7 +9,7 @@ const CaseReverse = () => {
   return (
     <div className="zupa__caseThird">
 
-    <div className="zupa__left-caseReverse zupa__caseThird-padding" id='zoom' data-aos = "fade-up" data-aos-duration = "1000" >
+    <div className="zupa__left-caseReverse zupa__caseThird-padding" id='zoom'>
         <figure>
           <img src={branding} alt="Branding" />
           <div className='zupa__left-caseReverse-overlay'>
@@ -24,7 +24,7 @@ const CaseReverse = () => {
         </figure>
     </div>
 
-    <div className="zupa__right-caseReverse" id='zoom' data-aos = "fade-up" data-aos-duration = "1000">
+    <div className="zupa__right-caseReverse" id='zoom'>
         <figure>
                <img src={jysk} alt="jysk" />
               <div className='zupa__right-caseReverse-overlay'>

@@ -8,18 +8,18 @@ const Article = () => {
   return (
     <div className='zupa__article'>
       <hr />
-        <div className='zupa__article-title'   data-aos = "fade-up" data-aos-duration = "1000">
+        <div className='zupa__article-title'>
             <p>
             Lorem ipsum exlibris magna
             </p>
         </div>
-        <div className='zupa__article-title-big'   data-aos = "fade-up" data-aos-duration = "1000">
+        <div className='zupa__article-title-big'>
             <p>
             Exlibris magna lix est consectetur hammock quality celcius
             </p>
         </div>
         <div className='zupa__article-content'>
-          <div className='zupa__article-content-text'   data-aos = "fade-right" data-aos-duration = "1000">
+          <div className='zupa__article-content-text'>
             <p className='zupa__article-left'>
                 Viral normcore roof party kinfolk banjo skateboard salvia gentrify deep v affogato
                 vice beard stumptown retro aesthetic. Pitchfork selvage artisan, organic lyft
@@ -28,7 +28,7 @@ const Article = () => {
                 Meditation hot chicken raw denim, pour-over drinking vinegar
             </p>
           </div>
-          <div className='zupa__article-content-text'   data-aos = "fade-left" data-aos-duration = "1000">
+          <div className='zupa__article-content-text'>
             <p className='zupa__article-right'>
             typewriter mustache taiyaki. Irony kombucha glossier, bushwick authentic everyday carry fixie
             chillwave vexillologist enamel pin tilde hot chicken green juice four dollar toast yuccie.
@@ -37,7 +37,7 @@ const Article = () => {
             </p>
           </div>
         </div>
-        <div className='zupa_article-link'   data-aos = "fade-right" data-aos-duration = "1000">
+        <div className='zupa_article-link'>
         <img src={link} alt="Link" />
         <IoMdArrowForward size="24px" color='#000' />
         <p className='zupa_article-link-text'>

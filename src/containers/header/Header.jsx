@@ -5,10 +5,10 @@ import wmbg from '../../assets/WMBG.svg'
 const Header = () => {
   return (
     <div className="zupa__header">
-        <div className="zupa__header-image" data-aos = "fade-right" data-aos-duration = "2000">
+        <div className="zupa__header-image">
            <img src={wmbg} alt="brand" />
           </div>
-        <div className="zupa__header-content" data-aos = "fade-left" data-aos-duration = "2000">
+        <div className="zupa__header-content">
           <p className="header__text">
             You recognize it when it is here.  And when it is not.
             Often it is hard to tell what exactly it is.  Yet it sometimes makes you laugh, cry, wonder. Or maybe even share, talk,

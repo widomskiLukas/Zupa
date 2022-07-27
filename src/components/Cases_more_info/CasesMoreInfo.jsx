@@ -5,7 +5,7 @@ import { IoMdArrowForward } from "react-icons/io";
 
 const CasesMoreInfo = () => {
   return (
-    <div className="zupa__CasesmoreInfo" data-aos = "fade-up" data-aos-duration = "1000">
+    <div className="zupa__CasesmoreInfo">
     <div className='zupa__CasesmoreInfo-content'>
             <p>
               More info
@@ -16,8 +16,7 @@ const CasesMoreInfo = () => {
             sh@zupa.dk
             </h4>
      </div>
-     <div className="zupa__CasesmoreInfo-work" id='zoom' >
-        <figure>
+     <div className="zupa__CasesmoreInfo-work">
           <div className='zupa__CasesmoreInfo-overlay'>
               <div className='zupa__CasesmoreInfo-image'>
                   <img src={more_info} alt="footer" />
@@ -36,7 +35,6 @@ const CasesMoreInfo = () => {
                   </div>
               </div>
           </div>
-        </figure>
     </div>
   </div>
 

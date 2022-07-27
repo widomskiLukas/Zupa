@@ -13,10 +13,10 @@ const Cases = () => {
   return (
 
     <div className="Cases">
-      <div>
+      <div className='nav'>
         <Navbar />
       </div>
-      <div>
+      <div className='side'>
         <Sidebar />
       </div>
       <div>

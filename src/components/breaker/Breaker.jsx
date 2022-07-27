@@ -3,7 +3,7 @@ import './breaker.css';
 
 const Breaker = () => {
   return (
-    <div className='zupa__breaker' data-aos = "fade-up" data-aos-duration = "1000">
+    <div className='zupa__breaker'>
         <div className='zupa__breaker-title'>
             <p>
             Lorem ipsum exlibris magna

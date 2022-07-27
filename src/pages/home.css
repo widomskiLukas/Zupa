@@ -4,3 +4,13 @@
 .Home .zupa__navbar-links_logo img{
     filter: invert(0);
 }
+.nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.side{
+    position: sticky;
+    top: 120px;
+    z-index: 1;
+}

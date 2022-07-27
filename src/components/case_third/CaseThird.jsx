@@ -9,7 +9,7 @@ const CaseThird = () => {
   return (
     <div className="zupa__caseThird">
 
-      <div className="zupa__left-caseThird zupa__caseThird-padding" id='zoom' data-aos = "fade-up" data-aos-duration = "1000" >
+      <div className="zupa__left-caseThird zupa__caseThird-padding" id='zoom'>
           <figure>
             <img src={roof} alt="roof" />
             <div className='zupa__left-caseThird-overlay'>
@@ -25,7 +25,7 @@ const CaseThird = () => {
       </div>
 
 
-      <div className="zupa__right-caseThird" id='zoom' data-aos = "fade-up" data-aos-duration = "1000">
+      <div className="zupa__right-caseThird" id='zoom'>
           <figure>
                  <img src={restaurant} alt="restaurant" />
                 <div className='zupa__right-caseThird-overlay'>

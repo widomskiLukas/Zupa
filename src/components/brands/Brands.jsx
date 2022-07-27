@@ -5,7 +5,7 @@ import sport1 from '../../assets/sport1.png'
 const Brands = () => {
   return (
     <div className="zupa__brands">
-        <div className="zupa__brands-content zupa__brands-content" data-aos = "fade-left" data-aos-duration = "2000">
+        <div className="zupa__brands-content zupa__brands-content">
             <img src={sport1} alt="sport" />
             <h1>
             For more than a decade, energy company OK has celebrated the unsung heroes of local sports in their TV ads, building a strong brand position along the way.

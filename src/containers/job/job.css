@@ -75,7 +75,7 @@
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-out;
-	transition: .6s ease-out;
+	transition: .3s ease-out;
 }
 .zupa__job-diversity#zoom:hover img {
 	-webkit-transform: scale(1.1);
@@ -85,9 +85,7 @@
 .zupa__job-diversity figure {
 	overflow: hidden;
 }
-.zupa__gradient-box figure {
-	overflow: hidden;
-}
+
 .zupa__gradient-box-overlay {
     display: flex;
     align-items: flex-start;
@@ -102,12 +100,7 @@
     opacity: 1;
     transition: .5s ease;
   }
-.zupa__gradient-box:hover .zupa__gradient-box-overlay {
-    opacity: 1;
-  }
-  .zupa__gradient-box:hover .zupa__gradient-box-overlay-text{
-    opacity: 1;
-  }
+
  .zupa__gradient-box-overlay-text {
     display: flex;
     justify-content: flex-start;
@@ -132,17 +125,6 @@
     font-size: 3.75rem;
     font-weight: 400;
     line-height: 60px;
-}
-.zupa__gradient-box-overlay {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-out;
-	transition: .6s ease-out;
-}
-.zupa__gradient-box-overlay:hover {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-    margin: 3.188rem 2.438rem;
 }
 
 
