@@ -15,3 +15,4 @@ export { default as Carousele } from './carousele/Carousele';
 export { default as CarouseleSecond } from './carouseleSecond/CarouseleSecond';
 export { default as MoreInfo } from './more_info/MoreInfo';
 export { default as CasesMoreInfo } from './Cases_more_info/CasesMoreInfo';
+export { default as GoToTop } from './GoToTop/GoToTop';

@@ -2,7 +2,7 @@ import React from 'react'
 
 import './home.css';
 import { Footer, Header, Job} from '../containers';
-import { Article, Case, Navbar, Sidebar, Breaker, CaseSecond, CaseThird, CaseReverse, CaseSecondReverse, MoreInfo } from '../components';
+import { Article, Case, Navbar, Sidebar, Breaker, CaseSecond, CaseThird, CaseReverse, CaseSecondReverse, MoreInfo, GoToTop } from '../components';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -51,6 +51,9 @@ const Home = () => {
       </div>
       <div>
         <Footer />
+      </div>
+      <div>
+        <GoToTop />
       </div>
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 
 import './cases.css';
 import { Footer, HeaderCases } from '../containers';
-import {   Navbar, Sidebar, CasesMoreInfo, Brands, Formula, Carousele, CarouseleSecond, Coach, Statistic } from '../components';
+import {   Navbar, Sidebar, CasesMoreInfo, Brands, Formula, Carousele, CarouseleSecond, Coach, Statistic, GoToTop } from '../components';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -45,6 +45,9 @@ const Cases = () => {
       </div>
       <div>
         <Footer />
+      </div>
+      <div>
+        <GoToTop />
       </div>
     </div>
   )
